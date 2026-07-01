@@ -1,5 +1,6 @@
 # Root-Cause-Analysis-Using-Modified-Virtual-Scale-Factor
 An incremental analysis method was proposed in this work to improve the interpretability of data-driven fault detection models. Without additional training, the contribution of each feature to the model decision could be quantified by using only the anomaly detection model and the current sample.
+## 关于TEP_dATA
 1、该数据与蒋浩天所著教材相同
 2、以te结尾的为测试集，无te结尾的为训练集
 3、其中d01-d021为21个故障数据，d00为正常数据
