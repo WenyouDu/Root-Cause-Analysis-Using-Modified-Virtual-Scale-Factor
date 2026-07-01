@@ -1,5 +1,7 @@
 # Root-Cause-Analysis-Using-Modified-Virtual-Scale-Factor
 An incremental analysis method was proposed in this work to improve the interpretability of data-driven fault detection models. Without additional training, the contribution of each feature to the model decision could be quantified by using only the anomaly detection model and the current sample.
+## Authors
+Wenyou Du, Yutong Meng
 ## 关于TEP_DATA
 1、该数据与蒋浩天所著教材相同
 
@@ -15,3 +17,11 @@ An incremental analysis method was proposed in this work to improve the interpre
 
 7、数据的导入可参考文件夹内的READ_TEP.ipynb脚本
 
+## Status
+This work is current submitted to the Journal of Process Control.
+
+## Usage
+All result in the paper are contained in the four notebook files. Just install related python environment and run the .ipynb files.
+
+## E-mail adress
+wen-you.du@sau.edu.cn
