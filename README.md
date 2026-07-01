@@ -2,20 +2,21 @@
 An incremental analysis method was proposed in this work to improve the interpretability of data-driven fault detection models. Without additional training, the contribution of each feature to the model decision could be quantified by using only the anomaly detection model and the current sample.
 ## Authors
 Wenyou Du, Yutong Meng
-## 关于TEP_DATA
-1、该数据与蒋浩天所著教材相同
-
-2、以te结尾的为测试集，无te结尾的为训练集
-
-3、其中d01-d021为21个故障数据，d00为正常数据
-
-4、训练数据部分d00.dat含有500个正常采样，d01.dat-d02.data含有480个采样，从第80个采样起引入故障
-
-5、测试数据部分均包含960个采样，对于故障数据，从第160个采样起引入故障
-
-6、特别注意一点d00.dat中行为变量，列为采样，其余所有数据文件均用列表示变量，行表示采样
-
-7、数据的导入可参考文件夹内的READ_TEP.ipynb脚本
+## About TEP_DATA
+1. This dataset is consistent with the dataset introduced in the textbook written by Jiang Haotian.
+2. 
+3. Files ending with "te" correspond to test sets, while files without the suffix "te" are training sets.
+4. 
+5. Files numbered d01–d021 contain data for 21 different faults, and d00 contains normal operating data.
+6. 
+7. For training data: d00.dat consists of 500 normal samples; d01.dat to d021.dat each contain 480 samples, with faults injected starting from the 80th sample.
+8. 
+9. All test datasets include 960 samples. For fault-related test data, faults are introduced from the 160th sample onward.
+10. 
+11. Special note: In d00.dat, rows represent variables and columns represent samples. For all other data files, columns denote variables and rows denote samples.
+12. 
+13. Refer to the READ_TEP.ipynb script in the folder for data loading implementations.
+14. 
 
 ## Status
 This work is currently submitted to the Journal of Process Control.
