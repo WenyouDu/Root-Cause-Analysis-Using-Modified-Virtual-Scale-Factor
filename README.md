@@ -18,7 +18,7 @@ Wenyou Du, Yutong Meng
 7、数据的导入可参考文件夹内的READ_TEP.ipynb脚本
 
 ## Status
-This work is current submitted to the Journal of Process Control.
+This work is currently submitted to the Journal of Process Control.
 
 ## Usage
 All result in the paper are contained in the four notebook files. Just install related python environment and run the .ipynb files.
